@@ -64,8 +64,8 @@ export const projects: Project[] = [
 		image: '/images/project3.png',
 		tags: ['Svelte', 'TypeScript'],
 		techStack: ['SvelteKit', 'TypeScript', 'Tailwind CSS v4', 'GSAP', 'Gemini API'],
-		liveUrl: 'https://github.com',
-		githubUrl: 'https://github.com',
+		liveUrl: 'https://peakyblinder-lilac.vercel.app/',
+		githubUrl: 'https://github.com/Akanimo-Umoh/portfolio-5b',
 		featured: true,
 		year: '2026'
 	},

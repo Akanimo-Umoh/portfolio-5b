@@ -6,9 +6,9 @@
 	let ctx: { revert: () => void } | null = null;
 
 	const socialLinks = [
-		{ id: 'github', label: 'GitHub', href: 'https://github.com' },
+		{ id: 'github', label: 'GitHub', href: 'https://github.com/Akanimo-Umoh' },
 		{ id: 'linkedin', label: 'LinkedIn', href: 'https://linkedin.com' },
-		{ id: 'twitter', label: 'Twitter / X', href: 'https://twitter.com' },
+		{ id: 'twitter', label: 'Twitter / X', href: 'https://twitter.com/umoh____' },
 		{ id: 'email', label: 'Email', href: 'mailto:tommy@example.com' }
 	] as const;
 

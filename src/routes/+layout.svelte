@@ -1,12 +1,4 @@
 <script lang="ts">
-	/**
-	 * +layout.svelte
-	 *
-	 * Root layout. Responsibilities:
-	 * 1. Import global styles
-	 * 2. Initialize theme store (onMount = browser only, safe from SSR)
-	 * 3. Render child pages
-	 */
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import { onMount } from 'svelte';

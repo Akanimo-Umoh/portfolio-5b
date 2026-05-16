@@ -1,17 +1,4 @@
 <script lang="ts">
-	/**
-	 * Contact.svelte
-	 *
-	 * Contact form with:
-	 * - Client-side validation (validated on blur, full check on submit)
-	 * - Visual error messages per field
-	 * - Loading and success states
-	 * - No {@html} — icons use the <Icon> component
-	 *
-	 * To make the form functional, create src/routes/api/contact/+server.ts
-	 * and send the POST there using Resend, Nodemailer, or similar.
-	 * The simulate block below is the only thing to replace.
-	 */
 	import { onMount } from 'svelte';
 	import Icon from '$lib/components/Icon.svelte';
 

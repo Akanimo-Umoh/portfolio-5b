@@ -24,6 +24,7 @@
 			aria-hidden="true"
 		>
 			<a
+				// eslint-disable-next-line svelte/no-navigation-without-resolve
 				href={project.liveUrl}
 				target="_blank"
 				rel="noopener noreferrer"
@@ -33,6 +34,7 @@
 				<Icon name="external" size={14} /> Live
 			</a>
 			<a
+				// eslint-disable-next-line svelte/no-navigation-without-resolve
 				href={project.githubUrl}
 				target="_blank"
 				rel="noopener noreferrer"
@@ -73,6 +75,7 @@
 		<!-- Links -->
 		<div class="flex items-center gap-3 border-t border-border pt-3">
 			<a
+				// eslint-disable-next-line svelte/no-navigation-without-resolve
 				href={project.liveUrl}
 				target="_blank"
 				rel="noopener noreferrer"
@@ -83,6 +86,7 @@
 			</a>
 			<span class="text-text-muted" aria-hidden="true">·</span>
 			<a
+				// eslint-disable-next-line svelte/no-navigation-without-resolve
 				href={project.githubUrl}
 				target="_blank"
 				rel="noopener noreferrer"

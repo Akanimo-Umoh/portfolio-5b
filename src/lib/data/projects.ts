@@ -1,17 +1,3 @@
-/**
- * projects.ts
- *
- * Single source of truth for portfolio projects.
- *
- * TO ADD YOUR REAL PROJECTS:
- * 1. Drop screenshots into static/images/ (e.g. static/images/findahome.jpg)
- * 2. Set image: '/images/findahome.jpg'
- * 3. Replace placeholder URLs with real ones.
- *
- * allTags is derived automatically — add a new tag to any project
- * and the filter buttons update with no other changes needed.
- */
-
 export interface Project {
 	id: number;
 	title: string;

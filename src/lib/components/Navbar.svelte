@@ -135,6 +135,7 @@
 			<div class="flex flex-col gap-1">
 				{#each navLinks as link (link.id)}
 					<a
+						// eslint-disable-next-line svelte/no-navigation-without-resolve
 						href={link.href}
 						onclick={(e) => scrollToSection(e, link.href)}
 						class="rounded-lg px-4 py-3 font-body text-base text-text-secondary no-underline transition-colors hover:bg-surface-raised hover:text-text-primary"

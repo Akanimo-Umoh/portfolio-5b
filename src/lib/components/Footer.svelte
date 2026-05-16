@@ -1,10 +1,4 @@
 <script lang="ts">
-	/**
-	 * Footer.svelte
-	 *
-	 * Minimal footer with brand, nav links, social icons, copyright.
-	 * No {@html} — social icons use the <Icon> component.
-	 */
 	import Icon from '$lib/components/Icon.svelte';
 
 	const currentYear = new Date().getFullYear();

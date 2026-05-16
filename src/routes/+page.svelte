@@ -1,8 +1,4 @@
 <script lang="ts">
-	/**
-	 * +page.svelte
-	 * Main portfolio page — each section is its own component.
-	 */
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Projects from '$lib/components/Projects.svelte';
